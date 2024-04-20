@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    font-size: 3rem;
+    font-family: "Bree Serif", serif;
+}
+.para{
+    font-size: 1.5rem;
+    font-family: "MuseoModerno", sans-serif;
+    margin-top: 15px;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/beach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-ele{
+    color: #F6FA92;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.info{
+    text-align: center;
+    height: 100vh;
+}
+.info-container{
+    position: relative;
+    top: 20%;
+}
+.info-img img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: none;
+}
+.info-ele{
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+/* media queries */
+@media (max-width: 450px){
+    .title{
+        font-size: 2rem;
+    }
+    .para{
+        font-size: 1rem;
+    }
+}
