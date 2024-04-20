@@ -9,7 +9,7 @@
 .para{
     font-size: 1.5rem;
     font-family: "MuseoModerno", sans-serif;
-    margin-top: 15px;
+    margin-top: 2em;
 }
 .main{
     width: 100vw;
@@ -27,15 +27,18 @@
 .info{
     text-align: center;
     height: 100vh;
+    color: #E2D7D1;
 }
 .info-container{
     position: relative;
-    top: 20%;
+    top: 10%;
 }
 .info-img img{
-    max-width: 200px;
+    width: 10vw;
+    min-width: 200px;
     border-radius: 50%;
     border: none;
+    margin-bottom: 3em;
 }
 .info-ele{
     max-width: 60vw;
@@ -43,11 +46,17 @@
 }
 
 /* media queries */
-@media (max-width: 450px){
+@media (max-width: 600px){
     .title{
         font-size: 2rem;
     }
     .para{
         font-size: 1rem;
+    }
+    .info-container{
+        top: 15%;
+    }
+    .info-img img{
+        min-width: 140px;
     }
 }
