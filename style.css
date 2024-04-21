@@ -27,7 +27,9 @@
 .info{
     text-align: center;
     height: 100vh;
-    color: #E2D7D1;
+    /* color: #E2D7D1; */
+    color: #BB75F0;
+    margin-bottom: 5em;
 }
 .info-container{
     position: relative;
@@ -44,7 +46,37 @@
     max-width: 60vw;
     margin: 0 auto;
 }
-
+.skills{
+    height: 100vh;
+}
+.skill-title{
+    margin-bottom: 5em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #EFA17A;
+}
+.skill-container{
+    display: flex;
+    gap: 20px;
+    width: 100vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.skill{
+    max-width: 500px;
+    min-width: 300px;
+}
+.skill img{
+    width: 75px;
+    margin-bottom: 3em;
+}
+.skill p{
+    color: #40514e;
+    margin-bottom: 3em;
+    font-size: 1.2em;
+    text-align: left;
+}
 /* media queries */
 @media (max-width: 600px){
     .title{
